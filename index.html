@@ -2,81 +2,80 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/Logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./src/output.css" rel="stylesheet">
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
     <title>OpenSourcePal</title>
   </head>
   <body>
-    <div class="bg-dark min-h-screen text-light py-6 px-8 flex flex-col  items-center">
+    <div class="bg-dark min-h-screen text-light py-6 sm:px-8 px-4 flex flex-col  items-center">
       <header class="flex justify-between w-full items-center max-w-[1200px]">
         <div class="flex items-center gap-1">
-          <img src="./Logo.png" alt="Logo" class="rounded-xl w-10 h-10">
-          <h2>OpenSourcePal</h2>
+          <img src="./Logo.png" alt="Logo" class="rounded-xl sm:w-10 sm:h-10 w-6 h-6">
+          <h2 class="sm:block hidden">OpenSourcePal</h2>
         </div>
-        <button class="flex items-center justify-center gap-2 px-12 py-2 rounded-3xl border border-brand">
+        <a href="https://chromewebstore.google.com/detail/open-source-pal/piplcgelcmkbfjinnbgnkeebenabcjjj" target="_blank" class="flex items-center justify-center gap-2 sm:px-12 py-2 rounded-3xl border border-brand px-6">
           <iconify-icon icon="devicon:chrome"></iconify-icon>
-          <p>Add to Chrome</p>
-        </bu>
+          <p class="sm:text-lg text-base font-medium">Add to Chrome</p>
+        </a>
       </header>
-      <section class="w-full flex-col items-center flex gap-3 max-w-[1200px] mt-40">
-        <h1 class="text-5xl font-bold">The <span class="underline-offset-2 text-brand">Ultimate Companion</span> for <br>Open Source Contributors</h1>
-        <h2 class="text-xl">Make Contributing to Open Source Easier</h2>
-        <button class="flex items-center justify-center gap-2 px-12 py-2 rounded-3xl bg-brand text-lg">
+      <section class="w-full flex-col items-center flex gap-3 max-w-[1200px] md:mt-40 sm:mt-32 mt-24">
+        <h1 class="md:text-5xl sm:text-4xl text-2xl font-bold text-center">The <span class="underline-offset-2 text-brand">Ultimate Companion</span> for <br>Open Source Contributors</h1>
+        <h2 class="md:text-xl sm:text-base text-sm text-center">Make Contributing to Open Source Easier</h2>
+        <a href="https://chromewebstore.google.com/detail/open-source-pal/piplcgelcmkbfjinnbgnkeebenabcjjj" target="_blank" class="flex items-center justify-center gap-2 px-12 py-2 rounded-3xl bg-brand text-lg">
           <iconify-icon icon="devicon:chrome"></iconify-icon>
-          <p class="font-medium">Add to Chrome</p>
-        </button>
+          <p class="sm:text-lg text-base font-medium">Add to Chrome</p>
+        </a>
       </section>
-      <section class="w-9/12 max-w-[1000px] mt-40">
+      <section class="md:w-9/12 w-full max-w-[1000px] md:mt-40 sm:mt-32 mt-24">
         <div class="bg-brand p-4 w-full rounded-xl flex items-center justify-center">
           <video src="./demo.mp4" class="w-full rounded-xl" autoplay controls></video>
         </div>
-        <div class="w-full flex items-center justify-between gap-6 mt-4">
+        <div class="w-full flex items-center justify-between sm:gap-6 gap-2 mt-4 md:text-lg sm:text-base text-sm">
           <p class="flex-1 bg-brand text-center py-2 rounded-lg">Step By Step Guides</p>
           <p class="flex-1 bg-brand text-center py-2 rounded-lg">Help in Solving Issues</p>
           <p class="flex-1 bg-brand text-center py-2 rounded-lg">Become a Pro</p>
         </div>
-
       </section>
-      <section class="w-full max-w-[500px] border border-brand flex flex-col items-center py-7 rounded-2xl gap-6 mt-32">
-        <h2 class="text-center font-semibold text-xl">Empower Your Open Source Journey <br>with Our Chrome Extension!</h2>
-        <button class="flex items-center justify-center gap-2 px-12 py-2 rounded-3xl bg-brand text-lg">
+      <section class="w-full max-w-[500px] border border-brand flex flex-col items-center py-7 rounded-2xl gap-6 md:mt-32 sm:mt-24 mt-16">
+        <h2 class="text-center font-semibold sm:text-xl text-lg">Empower Your Open Source Journey <br>with Our Chrome Extension!</h2>
+        <a href="https://chromewebstore.google.com/detail/open-source-pal/piplcgelcmkbfjinnbgnkeebenabcjjj" target="_blank" class="flex items-center justify-center gap-2 px-12 py-2 rounded-3xl bg-brand text-lg">
           <iconify-icon icon="devicon:chrome"></iconify-icon>
           <p class="font-medium">Add to Chrome</p>
-        </button>
+        </a>
       </section>
-      <article class="w-4/5 max-w-[1200px] mt-40">
+      <article class="md:w-4/5 w-full max-w-[1200px] md:mt-40 sm:mt-32 mt-24 sm:gap-0 gap-5 flex flex-col">
         <section class="flex items-center justify-between flex-wrap w-full">
-          <div class="w-2/3 flex flex-col gap-2">
-            <h3 class="font-bold text-3xl">Understand Project’s Readme Faster <br>With Our Readme Summarizer</h3>
-            <h4 class="text-lg opacity-90">Our Readme Summarizer helps beginner open source contributors quickly grasp project details by condensing lengthy Readme documents into concise summaries. Streamlining information extraction, it empowers users to navigate project setups and requirements efficiently.</h4>
+          <div class="sm:w-2/3 w-full flex flex-col gap-2">
+            <h3 class="font-bold md:text-3xl sm:text-2xl text-xl">Understand Project’s Readme Faster <br>With Our Readme Summarizer</h3>
+            <h4 class="md:text-lg sm:text-base text-sm opacity-90">Our Readme Summarizer helps beginner open source contributors quickly grasp project details by condensing lengthy Readme documents into concise summaries. Streamlining information extraction, it empowers users to navigate project setups and requirements efficiently.</h4>
           </div>
-          <img src="./readme.png" alt="Demo Readme" class="w-1/4 rounded-xl">
+          <img src="./readme.png" alt="Demo Readme" class="w-1/4 rounded-xl hidden sm:block">
         </section>
         <section class="flex items-center justify-between flex-wrap w-full">
-          <img src="./walkthrough.png" alt="Demo Walkthrough" class="w-1/4 rounded-xl">
-          <div class="w-2/3 flex flex-col gap-2">
-            <h3 class="font-bold text-3xl">Never Feel Confused With GitHub <br>UI With Our Walkthrough Guides</h3>
-            <h4 class="text-lg opacity-90">Our web extension aims to simplify the GitHub user interface for beginner open-source contributors by providing step-by-step walkthrough guides. Navigate GitHub effortlessly and focus on contributing to projects with confidence.</h4>
+          <img src="./walkthrough.png" alt="Demo Walkthrough" class="w-1/4 rounded-xl hidden sm:block">
+          <div class="sm:w-2/3 w-full flex flex-col gap-2">
+            <h3 class="font-bold md:text-3xl sm:text-2xl text-xl">Never Feel Confused With GitHub <br>UI With Our Walkthrough Guides</h3>
+            <h4 class="md:text-lg sm:text-base text-sm opacity-90">Our web extension aims to simplify the GitHub user interface for beginner open-source contributors by providing step-by-step walkthrough guides. Navigate GitHub effortlessly and focus on contributing to projects with confidence.</h4>
           </div>
         </section>
         <section class="flex items-center justify-between flex-wrap w-full">
-          <div class="w-2/3 flex flex-col gap-2">
-            <h3 class="font-bold text-3xl">Always get Information On <br>Open Source and Git Right in<br>GitHub with Our Resources Tab</h3>
-            <h4 class="text-lg opacity-90">Our web extension aims to provide beginner open-source contributors with easy access to essential information and resources directly within GitHub. The Resources Tab includes comprehensive guides and tutorials on open source and Git, ensuring you have all the necessary tools to learn and participate seamlessly.</h4>
+          <div class="sm:w-2/3 w-full flex flex-col gap-2">
+            <h3 class="font-bold md:text-3xl sm:text-2xl text-xl">Always get Information On <br>Open Source and Git Right in<br>GitHub with Our Resources Tab</h3>
+            <h4 class="md:text-lg sm:text-base text-sm opacity-90">Our web extension aims to provide beginner open-source contributors with easy access to essential information and resources directly within GitHub. The Resources Tab includes comprehensive guides and tutorials on open source and Git, ensuring you have all the necessary tools to learn and participate seamlessly.</h4>
           </div>
-          <img src="./resources.png" alt="Demo Resources" class="w-1/4 rounded-xl">
+          <img src="./resources.png" alt="Demo Resources" class="w-1/4 rounded-xl hidden sm:block">
         </section>
       </article>
-       <section class="w-full max-w-[500px] bg-brand flex flex-col items-center py-7 rounded-2xl gap-6 mt-28">
-        <h2 class="text-center font-semibold text-xl">Empower Your Open Source Journey <br>with Our Chrome Extension!</h2>
-        <button class="flex items-center justify-center gap-2 px-12 py-2 rounded-3xl bg-light text-lg text-dark">
+       <section class="w-full max-w-[500px] bg-brand flex flex-col items-center py-7 rounded-2xl gap-6 md:mt-28 sm:mt-20 mt-12">
+        <h2 class="text-center font-semibold sm:text-xl text-lg">Empower Your Open Source Journey <br>with Our Chrome Extension!</h2>
+        <a href="https://chromewebstore.google.com/detail/open-source-pal/piplcgelcmkbfjinnbgnkeebenabcjjj" target="_blank" class="flex items-center justify-center gap-2 px-12 py-2 rounded-3xl bg-light text-lg text-dark">
           <iconify-icon icon="devicon:chrome"></iconify-icon>
           <p class="font-medium">Add to Chrome</p>
-        </button>
+        </a>
       </section>
-      <footer class="w-full max-w-[1200px] flex items-center justify-center mt-28">
+      <footer class="w-full max-w-[1200px] flex items-center justify-center md:mt-28 sm:mt-20 mt-12">
         <h5 class="font-bold text-xl">Made By <a href="https://x.com/dunsincodes" target="_blank" class="underline underline-offset-1 text-brand">Dunsin</a></h5>
       </footer>
     </div>
